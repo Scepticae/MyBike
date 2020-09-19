@@ -1,0 +1,10 @@
+<%- include("partials/header"); -%>
+
+    <% posts.forEach(function(post){ %>
+        <div class="post-content blog-color">
+            <h2><%= post.title %> <span class="post-date"><%= post.postDate %></span></h2>
+            <p class="post-paragraph"><%= post.content %> </p>
+        </div>
+    <% }); %>
+
+<%- include("partials/footer"); -%>

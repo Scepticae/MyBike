@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #e4e3e3;
+}
+
+button {
+    padding: 10px;
+    color: #e4e3e3;
+    background-color: #204051;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #84a9ac;
+}
+
+.nav-local {
+    padding-right: 50px;
+    color: #e4e3e3;
+}
+
+.banner {
+    height: 150px;
+    background-color: #84a9ac;
+    margin: 0 0 30px;
+}
+
+.bike-img {
+    position: absolute;
+    height: 150px;
+    right: 50px;
+    top: 56px;
+}
+
+.title {
+    width: 500px;
+    color: #204051;
+    font-size: 3rem;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 46px 0 46px 50px;
+}
+
+.small-title {
+    font-size: 1.5rem;
+    color: #e4e3e3;
+}
+
+.home-content {
+    color: #204051;
+    padding: 0 50px;
+}
+
+.home-paragraph {
+    margin: 30px 0;
+}
+
+.main-content {
+    background-color: #3b6978;
+    padding: 30px 50px;
+    margin-bottom: 30px;
+}
+
+.input-title {
+    margin-bottom: 15px;
+}
+
+.input-title input{
+    width: 100%;
+    background-color: #e4e3e3;
+    color: #204051;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-text {
+    margin-bottom: 15px;
+}
+
+.input-text textarea {
+    width: 100%;
+    background-color: #e4e3e3;
+    color: #204051;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.myfooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #e4e3e3;
+}
+
+.copy {
+    color: #84a9ac;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.blog-color {
+    color: #e4e3e3;
+}
+
+.post-date {
+    color: #84a9ac;
+    font-size: 1rem;
+    padding-left: 30px;
+}
+
+.post-content {
+    background-color: #3b6978;
+    padding: 30px 50px;
+    margin-bottom: 30px;
+}
+
+.post-paragraph {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .bike-img {
+        display: none;
+    }
+}
